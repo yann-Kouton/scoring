@@ -26,9 +26,7 @@ export default function Cover({ onEnter }) {
           <br />— Secteur Aviation
         </h1>
         <p className="cover-desc">
-          Application de déploiement d'un modèle de classification prédisant
-          la satisfaction d'un passager, avec tableau de bord d'analyse
-          interactif.
+          Optimisez l’expérience voyageur : outil de scoring prédictif et tableau de bord analytique en temps réel.
         </p>
 
         <div className="cover-divider" />
@@ -40,7 +38,7 @@ export default function Cover({ onEnter }) {
             <p className="cover-meta-value">Soro Zonlewa Daouda</p>
           </div>
           <div className="cover-meta-block">
-            <p className="cover-meta-label">Encadré par</p>
+            <p className="cover-meta-label">Cours encadré par</p>
             <p className="cover-meta-value">Pr. Dabone Yacouba</p>
           </div>
           <div className="cover-meta-block">

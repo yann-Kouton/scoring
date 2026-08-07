@@ -903,3 +903,262 @@ select:focus-visible,
 .cover-cta:hover .cover-cta-arrow {
   transform: translateX(3px);
 }
+
+/* ============ COVER ============ */
+.cover {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background: #0b0e1a;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Effets lumineux d'arrière-plan */
+.cover-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cover-glow-1 {
+  width: 500px;
+  height: 500px;
+  top: -150px;
+  right: -150px;
+  background: radial-gradient(circle, rgba(139, 124, 246, 0.6), transparent 70%);
+}
+
+.cover-glow-2 {
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  left: -100px;
+  background: radial-gradient(circle, rgba(255, 138, 101, 0.5), transparent 70%);
+}
+
+/* ===== AVION ===== */
+.cover-plane {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 1.5rem auto;
+  flex-shrink: 0;
+}
+
+.cover-plane svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: drop-shadow(0 8px 24px rgba(139, 124, 246, 0.4));
+  transition: transform 0.3s ease;
+}
+
+.cover-plane svg:hover {
+  transform: scale(1.05) rotate(-3deg);
+}
+
+/* ===== CARTE ===== */
+.cover-card {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 32px;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+}
+
+.cover-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 0.75rem;
+}
+
+.cover-title {
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+}
+
+.grad-text {
+  background: linear-gradient(135deg, #ff8a65, #8b7cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cover-desc {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 480px;
+  margin: 0.75rem auto 1.5rem auto;
+  line-height: 1.6;
+}
+
+.cover-divider {
+  width: 60px;
+  height: 2px;
+  margin: 1.5rem auto;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+}
+
+/* ===== MÉTADONNÉES ===== */
+.cover-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.cover-meta-block {
+  text-align: center;
+}
+
+.cover-meta-label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 0.2rem;
+}
+
+.cover-meta-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0.1rem 0;
+}
+
+.cover-meta-value-sub {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.1rem;
+}
+
+/* ===== BOUTON ===== */
+.cover-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 2.2rem;
+  background: linear-gradient(135deg, #ff8a65, #8b7cf6);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 24px rgba(139, 124, 246, 0.3);
+}
+
+.cover-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(139, 124, 246, 0.5);
+}
+
+.cover-cta-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.cover-cta:hover .cover-cta-arrow {
+  transform: translateX(4px);
+}
+
+/* ============ RESPONSIVE MOBILE ============ */
+@media (max-width: 640px) {
+  .cover {
+    padding: 1.5rem 1rem;
+  }
+
+  .cover-plane {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1.2rem;
+  }
+
+  .cover-card {
+    padding: 2rem 1.5rem;
+    border-radius: 24px;
+  }
+
+  .cover-title {
+    font-size: clamp(1.6rem, 7vw, 2.2rem);
+  }
+
+  .cover-desc {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  .cover-meta {
+    gap: 1rem 1.5rem;
+  }
+
+  .cover-meta-value {
+    font-size: 0.8rem;
+  }
+
+  .cover-cta {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.8rem;
+  }
+
+  .cover-glow-1 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -100px;
+  }
+
+  .cover-glow-2 {
+    width: 250px;
+    height: 250px;
+    bottom: -80px;
+    left: -80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cover-plane {
+    width: 56px;
+    height: 56px;
+  }
+
+  .cover-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .cover-title {
+    font-size: 1.4rem;
+  }
+
+  .cover-meta-block {
+    min-width: 100%;
+  }
+}

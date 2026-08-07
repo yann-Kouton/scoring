@@ -29,3 +29,6 @@ Thumbs.db
 
 # ---- Données volumineuses (garder hors du repo Git) ----
 backend/Données-Scoring-Statisfaction-Clientelle-Aviaton.csv
+
+.vercel
+.env*

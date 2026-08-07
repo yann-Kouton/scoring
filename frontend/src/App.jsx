@@ -28,10 +28,10 @@ export default function App() {
           onClick={() => setView("cover")}
           style={{ background: "none", border: "none", cursor: "pointer", padding: 0, textAlign: "left" }}
         >
-          <span className="brand-mark">CX</span>
+          <span className="brand-mark">K&S</span>
           <div>
             <div className="brand-title">Scoring Satisfaction Client</div>
-            <div className="brand-sub">Aviation · Gradient Boosting Classifier</div>
+            <div className="brand-sub">Kouton Vignon Esmel Yann Kevin · Soro Zonlewa Daouda</div>
           </div>
         </button>
         <div className="status-pill">
@@ -68,7 +68,7 @@ export default function App() {
           <p className="eyebrow">Module 01</p>
           <h1 className="section-title">Scorer un passager</h1>
           <p className="section-desc">
-            Renseigne le profil et les notes de service d'un passager pour estimer sa
+            Renseignez le profil et les notes de service d'un passager pour estimer sa
             probabilité de satisfaction, selon le modèle Gradient Boosting entraîné sur
             les données historiques de la compagnie.
           </p>
@@ -87,8 +87,8 @@ export default function App() {
       )}
 
       <div className="footer-note">
-        <span>Modèle : Gradient Boosting Classifier · scikit-learn</span>
-        <span>API : FastAPI</span>
+        <span>Kouton Vignon Esmel Yann Kevin</span>
+        <span>Soro Zonlewa Daouda</span>
       </div>
     </div>
   );
