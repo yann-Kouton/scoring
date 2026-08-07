@@ -1,0 +1,163 @@
+{
+  "n_total": 103900,
+  "satisfaction_counts": {
+    "neutral or dissatisfied": 58877,
+    "satisfied": 45023
+  },
+  "satisfaction_by_class": {
+    "neutral or dissatisfied": {
+      "Business": 0.3057608279805892,
+      "Eco": 0.8138584631182612,
+      "Eco Plus": 0.7539036434005072
+    },
+    "satisfied": {
+      "Business": 0.6942391720194109,
+      "Eco": 0.18614153688173884,
+      "Eco Plus": 0.24609635659949286
+    }
+  },
+  "satisfaction_by_gender": {
+    "neutral or dissatisfied": {
+      "Female": 0.5726207184311345,
+      "Male": 0.5605385547348263
+    },
+    "satisfied": {
+      "Female": 0.42737928156886545,
+      "Male": 0.4394614452651737
+    }
+  },
+  "satisfaction_by_customer_type": {
+    "neutral or dissatisfied": {
+      "Loyal Customer": 0.5227098764705189,
+      "disloyal Customer": 0.7633422896580792
+    },
+    "satisfied": {
+      "Loyal Customer": 0.477290123529481,
+      "disloyal Customer": 0.23665771034192087
+    }
+  },
+  "satisfaction_by_travel_type": {
+    "neutral or dissatisfied": {
+      "Business travel": 0.417414483692239,
+      "Personal Travel": 0.8983161224299935
+    },
+    "satisfied": {
+      "Business travel": 0.582585516307761,
+      "Personal Travel": 0.1016838775700065
+    }
+  },
+  "avg_ratings_by_satisfaction": {
+    "Inflight wifi service": {
+      "neutral or dissatisfied": 2.3996467211304924,
+      "satisfied": 3.1612287053283876
+    },
+    "Departure/Arrival time convenient": {
+      "neutral or dissatisfied": 3.1290826638585525,
+      "satisfied": 2.9702374342002975
+    },
+    "Ease of Online booking": {
+      "neutral or dissatisfied": 2.5468688961733785,
+      "satisfied": 3.0315616462696844
+    },
+    "Gate location": {
+      "neutral or dissatisfied": 2.9761366917472016,
+      "satisfied": 2.977811340870222
+    },
+    "Food and drink": {
+      "neutral or dissatisfied": 2.9579971805628684,
+      "satisfied": 3.5213335406347865
+    },
+    "Online boarding": {
+      "neutral or dissatisfied": 2.6561645464272976,
+      "satisfied": 4.027452635319725
+    },
+    "Seat comfort": {
+      "neutral or dissatisfied": 3.036296006929701,
+      "satisfied": 3.966506008040335
+    },
+    "Inflight entertainment": {
+      "neutral or dissatisfied": 2.894152215635987,
+      "satisfied": 3.964884614530351
+    },
+    "On-board service": {
+      "neutral or dissatisfied": 3.019141600285341,
+      "satisfied": 3.8572729493814273
+    },
+    "Leg room service": {
+      "neutral or dissatisfied": 2.9908283370416293,
+      "satisfied": 3.822090931301779
+    },
+    "Baggage handling": {
+      "neutral or dissatisfied": 3.3759532584880345,
+      "satisfied": 3.9663505319503365
+    },
+    "Checkin service": {
+      "neutral or dissatisfied": 3.0429199857329685,
+      "satisfied": 3.6460253648135397
+    },
+    "Inflight service": {
+      "neutral or dissatisfied": 3.3887935866297534,
+      "satisfied": 3.969415632010306
+    },
+    "Cleanliness": {
+      "neutral or dissatisfied": 2.9361040813900163,
+      "satisfied": 3.744308464562557
+    }
+  },
+  "age_histogram": [
+    {
+      "bucket": "0-9",
+      "satisfied": 220,
+      "neutral or dissatisfied": 1674
+    },
+    {
+      "bucket": "10-19",
+      "satisfied": 1541,
+      "neutral or dissatisfied": 6377
+    },
+    {
+      "bucket": "20-29",
+      "satisfied": 7422,
+      "neutral or dissatisfied": 13492
+    },
+    {
+      "bucket": "30-39",
+      "satisfied": 8511,
+      "neutral or dissatisfied": 12147
+    },
+    {
+      "bucket": "40-49",
+      "satisfied": 13770,
+      "neutral or dissatisfied": 9925
+    },
+    {
+      "bucket": "50-59",
+      "satisfied": 10924,
+      "neutral or dissatisfied": 8179
+    },
+    {
+      "bucket": "60-69",
+      "satisfied": 2337,
+      "neutral or dissatisfied": 6008
+    },
+    {
+      "bucket": "70-79",
+      "satisfied": 280,
+      "neutral or dissatisfied": 998
+    }
+  ],
+  "flight_distance_avg_by_satisfaction": {
+    "neutral or dissatisfied": 928.8988399544813,
+    "satisfied": 1530.0394687159896
+  },
+  "delay_avg_by_satisfaction": {
+    "departure": {
+      "neutral or dissatisfied": 16.503711126585934,
+      "satisfied": 12.607178553183928
+    },
+    "arrival": {
+      "neutral or dissatisfied": 17.074833975915894,
+      "satisfied": 12.594096350754059
+    }
+  }
+}
